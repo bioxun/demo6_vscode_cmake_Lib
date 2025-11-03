@@ -1,7 +1,7 @@
 
 # C++ CMake Demo Project
 
-A complete C++ project demonstrating modern CMake usage with executable and library targets.
+A complete C++ project demonstrating  CMake usage with executable and library targets.
 
 ## Project Structure
 ```
