@@ -1,0 +1,3 @@
+D:\ProgKits\msys2\mingw64\bin\cmake.exe -E rm -f CMakeFiles\demo6_test1.dir/objects.a
+D:\ProgKits\msys2\mingw64\bin\ar.exe qc CMakeFiles\demo6_test1.dir/objects.a @CMakeFiles\demo6_test1.dir\objects1.rsp
+D:\ProgKits\msys2\mingw64\bin\g++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\demo6_test1.dir/objects.a -Wl,--no-whole-archive -o demo6_test1.exe -Wl,--out-implib,libdemo6_test1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\demo6_test1.dir\linkLibs.rsp

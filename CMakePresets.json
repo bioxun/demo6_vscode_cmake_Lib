@@ -1,0 +1,64 @@
+{
+    "version": 8,
+    "configurePresets": [
+        {
+            "name": "debug_mingw",
+            "displayName": "GCC (mingw64)",
+            "description": "Using compilers: C = D:\\ProgKits\\msys2\\mingw64\\bin\\gcc.exe, CXX = D:\\ProgKits\\msys2\\mingw64\\bin\\g++.exe",
+            "generator": "MinGW Makefiles",
+            "binaryDir": "${sourceDir}/out/build/${presetName}",
+            "cacheVariables": {
+                "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/install/${presetName}",
+                "CMAKE_C_COMPILER": "D:/ProgKits/msys2/mingw64/bin/gcc.exe",
+                "CMAKE_CXX_COMPILER": "D:/ProgKits/msys2/mingw64/bin/g++.exe",
+                "CMAKE_BUILD_TYPE": "Debug"
+            }
+        },
+        {
+            "name": "release_mingw",
+            "displayName": "release (mingw64)",
+            "description": "Using compilers: C = D:\\ProgKits\\msys2\\mingw64\\bin\\g++.exe, CXX = D:\\ProgKits\\msys2\\mingw64\\bin\\g++.exe",
+            "generator": "MinGW Makefiles",
+            "binaryDir": "${sourceDir}/out/build/${presetName}",
+            "cacheVariables": {
+                "CMAKE_C_COMPILER": "D:/ProgKits/msys2/mingw64/bin/gcc.exe",
+                "CMAKE_CXX_COMPILER": "D:/ProgKits/msys2/mingw64/bin/g++.exe",
+                "CMAKE_BUILD_TYPE": "Release"
+            }
+        },
+        {
+            "name": "Ninja",
+            "displayName": "Ninja configure preset",
+            "description": "Sets Ninja generator, build and install directory",
+            "generator": "Ninja",
+            "binaryDir": "${sourceDir}/out/build/${presetName}",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug",
+                "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/install/${presetName}"
+            }
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "defaultBuild",
+            "configurePreset": "release_mingw",
+            "description": "Build using the default configure preset"
+        }
+    ],
+    "testPresets": [
+        {
+            "name": "test1",
+            "displayName": "Test 1",
+            "description": "Run test1",
+            "configurePreset": "release_mingw"
+        }
+    ],
+    "packagePresets": [
+        {
+            "name": "p1",
+            "description": "",
+            "displayName": "",
+            "configurePreset": "release_mingw"
+        }
+    ]    
+}

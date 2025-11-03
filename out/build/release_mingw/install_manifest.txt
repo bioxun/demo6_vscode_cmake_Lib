@@ -1,0 +1,5 @@
+D:/Repertoire/Github/demo6_vscode_cmake_Lib/out/build/release_mingw/_CPack_Packages/win64/NSIS64/hello_chaos-0.1.3-win64/bin/demo6_test1.exe
+D:/Repertoire/Github/demo6_vscode_cmake_Lib/out/build/release_mingw/_CPack_Packages/win64/NSIS64/hello_chaos-0.1.3-win64/bin/demo6_test2.exe
+D:/Repertoire/Github/demo6_vscode_cmake_Lib/out/build/release_mingw/_CPack_Packages/win64/NSIS64/hello_chaos-0.1.3-win64/lib/libmathlib.dll.a
+D:/Repertoire/Github/demo6_vscode_cmake_Lib/out/build/release_mingw/_CPack_Packages/win64/NSIS64/hello_chaos-0.1.3-win64/bin/libmathlib.dll
+D:/Repertoire/Github/demo6_vscode_cmake_Lib/out/build/release_mingw/_CPack_Packages/win64/NSIS64/hello_chaos-0.1.3-win64/docs/README.md
