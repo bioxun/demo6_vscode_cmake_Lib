@@ -1,3 +1,0 @@
-D:\ProgKits\msys2\mingw64\bin\cmake.exe -E rm -f CMakeFiles\mathlib.dir/objects.a
-D:\ProgKits\msys2\mingw64\bin\ar.exe qc CMakeFiles\mathlib.dir/objects.a @CMakeFiles\mathlib.dir\objects1.rsp
-D:\ProgKits\msys2\mingw64\bin\g++.exe -O3 -DNDEBUG -shared -o libmathlib.dll -Wl,--out-implib,libmathlib.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\mathlib.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\mathlib.dir\linkLibs.rsp
