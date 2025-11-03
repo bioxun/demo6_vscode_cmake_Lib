@@ -10,11 +10,11 @@ cpp-cmake-demo/
 ├── README.md
 ├── .gitignore
 ├── src/
-│   └── main.cpp
+│   └── test1.cpp,test2.cpp,mathlib.cpp,mathlib.h
 ├── include/
-│   └── math_utils.h
+│   └── 
 └── lib/
-    └── math_utils.cpp
+    └── 
 ```
 
 ## Features
