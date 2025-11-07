@@ -2,7 +2,7 @@
 # C++ CMake Demo Project
 
 C++ project demonstrating  CMake usage with executable and library targets.
-Hello CHaos Mage!!!!5e
+Hello CHaos Mage!!!!6
 
 ## Project Structure
 ```
